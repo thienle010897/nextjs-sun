@@ -1,0 +1,32 @@
+.mission {
+    margin-top: 40px;
+    .content {
+        h1 {
+            margin: 10px 0;
+            color: var(--title-color-);
+        }
+        .item {
+            border-top: 6px solid var(--title-color-) ;
+            h2 {
+                color: var(--title-color-);
+
+            }
+            p{
+                color: rgb(77, 89, 105);
+
+            }
+        }
+    }
+}
+
+@media (max-width: 1200px) {
+    
+}
+@media (max-width: 990px ) {
+} 
+@media (max-width: 768px ) {
+    
+}
+@media (max-width: 480px) {
+   
+}

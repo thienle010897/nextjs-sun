@@ -1,0 +1,123 @@
+.projects {
+    margin-top: 60px;
+    position: relative;
+    .title {
+        font-size: 30px;
+        font-weight: 700;
+        color: var(--title-color-);
+    }
+    .content {
+        margin-top: 20px;
+        .list {
+            .item {
+                position: relative;
+                .image {
+                    width: 100%;
+                    border-radius: 10px;
+                    display: flex;
+                    img {
+                        margin: auto;
+                        width: 100%;
+                        border-radius: 10px;
+    
+                    }
+                    
+                }
+                &:hover .pjContent {
+                    // transform: scale(1);
+                    visibility: visible;
+                    opacity: 1;
+
+                }
+                .pjContent {
+                    cursor: pointer;
+                    // transform: scale(0);
+                    position: absolute;
+                    border-radius: 10px;
+                    visibility: hidden;
+                    opacity: 0;
+                    top: 0;
+                    left: 0;
+                    width: 100%;
+                    height: 100%;
+                    background-color: rgba(0, 0, 0, 0.7 );
+                    flex-direction: column;
+                    justify-content: flex-end;
+                    padding: 20px;
+                    display: flex;
+
+                    color: #fff;
+                    transition: all 0.25s ease-in-out;
+                    h4 {
+                        margin: 4px 0;
+                        
+                    }
+                    h2 {
+                        margin: 4px 0;
+                    }
+                    p {
+                        margin: 4px 0;
+                    }
+                    .btnItem {
+                        align-items: center;
+                        width: 100%;
+                        display: flex;
+                        padding: 12px 0;
+                        cursor: pointer;
+                        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+                        .icon {
+                            display: flex;
+                            margin-left: 6px;
+                            width: 30px;
+                            height: 30px;
+                            align-items: center;
+                            border-radius: 50%;
+                            background-color: rgba(228, 220, 220, 0.5);
+                        }
+                        h3{
+                            margin: 6px;
+                            
+                        }
+                        &:hover {
+                            color: var(--primary-color-);
+                        }
+                        &:hover h3 {
+                            color: var(--primary-color-);
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .btn {
+        color: #fff;
+        align-items: center;
+        width: 100%;
+        border-radius: 10px;
+        padding: 12px 0;
+        margin: 20px 0;
+        background-color: var(--title-color-);
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        width: 33.33334%;
+        transform: translateX(100%);
+        h3{
+            margin: 6px;
+        }
+        &:hover {
+            background-color: var(--primary-color-);
+            color: #fff;
+        }
+    }
+}
+
+@media (max-width: 1200px) {
+    
+}
+@media (max-width: 990px ) {
+} 
+@media (max-width: 768px ) {
+    
+}
+@media (max-width: 480px) {
+   
+}

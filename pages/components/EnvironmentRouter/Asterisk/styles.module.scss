@@ -1,0 +1,175 @@
+.asterick {
+    margin-top: 40px;
+    .bg {
+        background-repeat: no-repeat;
+        // background-size: contain;
+        background-position: center;
+        border-radius: 10px;
+        background-image:   url(https://sun-asterisk.vn/wp-content/uploads/2020/11/career-bg.jpg);
+        .content {
+            display: flex;
+            flex-direction: column;
+            padding: 50px;
+            border-radius: 10px;
+            color: #fff;
+            background-color: rgba(16, 135, 117, 0.9);
+            p {
+                margin: 10px auto;
+
+            }
+            h1 {
+                margin: 10px auto 20px;
+
+            }
+            h2 {
+                margin: 20px auto 40px;
+
+            }
+            h4 {
+                margin: 0 auto 20px;
+
+            }
+            .btn {
+                color: var(--primary-color-);
+                align-items: center;
+                width: 60%;
+                border-radius: 10px;
+                padding: 12px 0;
+                margin: auto;
+                background-color: #fff;
+                font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+                .icon {
+                    display: flex;
+                    margin-left: 6px;
+                    width: 30px;
+                    height: 30px;
+                    align-items: center;
+                    border-radius: 50%;
+                    background-color: rgba(228, 220, 220, 0.5);
+                }
+                h3{
+                    margin: 6px;
+                }
+                &:hover {
+                    background-color: var(--title-color-);
+                    color: #fff;
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 1200px) {
+    
+}
+@media (max-width: 990px ) {
+    .asterick {
+        padding: 20px;
+        .bg {
+            .content {
+                padding: 40px;
+                p {
+                    margin: 6px auto;
+    
+                }
+                h1 {
+                    margin: 10px auto 10px;
+                    font-size: 16px;
+    
+                }
+                h2 {
+                    margin: 10px auto 20px;
+                    font-size: 18px;
+    
+                }
+                h4 {
+                    margin: 0 auto 20px;
+    
+                }
+                .btn {
+                    width: 90%;
+                    .icon {
+                    }
+                    h3{
+                        font-size: 14px;
+                    }
+                    
+                }
+            }
+        }
+    }
+}
+@media (max-width: 768px ) {
+    .asterick {
+        padding: 20px;
+        .bg {
+            .content {
+                padding: 40px;
+                p {
+                    margin: 6px auto;
+    
+                }
+                h1 {
+                    margin: 10px auto 10px;
+                    font-size: 16px;
+    
+                }
+                h2 {
+                    margin: 10px auto 20px;
+                    font-size: 18px;
+    
+                }
+                h4 {
+                    margin: 0 auto 20px;
+    
+                }
+                .btn {
+                    width: 90%;
+                    .icon {
+                    }
+                    h3{
+                        font-size: 14px;
+                    }
+                    
+                }
+            }
+        }
+    }
+}
+@media (max-width: 480px) {
+    .asterick {
+        padding: 10px;
+        .bg {
+            .content {
+                padding: 20px;
+                p {
+                    margin: 6px auto;
+    
+                }
+                h1 {
+                    margin: 10px auto 10px;
+                    font-size: 16px;
+    
+                }
+                h2 {
+                    margin: 10px auto 20px;
+                    font-size: 18px;
+    
+                }
+                h4 {
+                    margin: 0 auto 20px;
+    
+                }
+                .btn {
+                    width: 90%;
+                    .icon {
+                    }
+                    h3{
+                        font-size: 14px;
+                    }
+                    
+                }
+            }
+        }
+    }
+}

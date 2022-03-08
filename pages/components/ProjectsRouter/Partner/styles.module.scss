@@ -1,0 +1,43 @@
+.partner {
+    margin-top: 50px;
+    border: 6px solid rgb(249, 249, 249) ;
+    border-radius: 10px;
+    padding: 60px 20px;
+    background-image: url(https://myanimelist.net/images/userwalls/31599.png);
+
+    .title {
+        font-size: 30px;
+        font-weight: 700;
+        color: var(--title-color-);
+    }
+    .content {
+        margin-top: 30px;
+        .item {
+            .image {
+                width: 100%;
+                display: flex;
+                img {
+                    margin: auto;
+                    width: 70%;
+                    transition: all 0.25s ease-in-out;
+                    cursor: pointer;
+                    &:hover {
+                        transform: scale(1.1);
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 1200px) {
+    
+}
+@media (max-width: 990px ) {
+} 
+@media (max-width: 768px ) {
+    
+}
+@media (max-width: 480px) {
+   
+}

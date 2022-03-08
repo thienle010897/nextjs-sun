@@ -1,0 +1,90 @@
+.lineOfficer {
+    margin-top: 50px;
+    .content {
+        .item {
+            cursor: pointer;
+            border-top: 6px solid rgba(77, 89, 105, 0.7);
+            margin: 2px;
+            font-size: 12px;
+            display: flex;
+            color: rgba(77, 89, 105, 0.7);
+            transition: all 0.25s ease-in-out;
+            h3 {
+                margin: 15px auto;
+            }
+            &:hover {
+                border-color: var(--primary-color-);
+                color: var(--primary-color-);
+            }
+        }
+        .item.active {
+            border-color: var(--primary-color-);
+            color: var(--primary-color-);
+        }
+        .image {
+            width: 100%;
+            display: flex;
+            img {
+                margin: auto;
+                width: 100%;
+            }
+        }
+        .desc {
+            position: absolute;
+            width: 33.333334%;
+            height: 100%;
+            background-color: rgba(0, 0, 0, 0.5);
+            transform: translateX(100%);
+            color: #fff;
+            padding: 20px;
+        }
+    }
+}
+
+@media (max-width: 1200px) {
+    
+}
+@media (max-width: 990px ) {
+} 
+@media (max-width: 768px ) {
+    .lineOfficer {
+        .content {
+           
+            .desc {
+                position: absolute;
+                width: 33.333334%;
+                height: 100%;
+                background-color: rgba(0, 0, 0, 0.5);
+                transform: translateX(100%);
+                color: #fff;
+                padding: 20px;
+            }
+        }
+    }
+}
+@media (max-width: 480px) {
+    .lineOfficer {
+        margin-top: 50px;
+        .content {
+           
+            .image {
+                width: 100%;
+                display: flex;
+                img {
+                    margin: auto;
+                    width: 100%;
+                }
+            }
+            .desc {
+                position: absolute;
+                height: 33.333334%;
+                width: 100%;
+                background-color: rgba(0, 0, 0, 0.5);
+                transform: translateX(0);
+                bottom: 33.333333%;
+                color: #fff;
+                padding: 20px;
+            }
+        }
+    }
+}

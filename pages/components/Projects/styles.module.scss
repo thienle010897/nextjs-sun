@@ -1,0 +1,313 @@
+.projects {
+    margin-top: 40px;
+    .title {
+        font-size: 30px;
+        font-weight: 700;
+        color: var(--title-color-);
+    }
+    .content {
+        .contentCount{
+            margin-bottom: 20px;
+            .count {
+                width: 100%;
+                display: flex;
+                align-items: center;
+                h1{
+                    font-size: 100px;
+                    margin: 20px 50px 20px;
+                    color: var(--primary-color-);
+                }
+                span{
+                    position: relative;
+                    h3{
+                        font-size: 50px;
+                        color: var(--primary-color-);
+                        margin: 0;
+                        transform: translateY(-20px);
+                        
+        
+                    }
+                    h4 {
+                        font-size: 20px;
+                        margin: 0;
+                        color: var(--title-color-);
+                    }
+                }
+            }
+            .btn {
+                color: #fff;
+                align-items: center;
+                width: 100%;
+                border-radius: 10px;
+                padding: 12px 0;
+                background-color: var(--title-color-);
+                font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+                .icon {
+                    display: flex;
+                    margin-left: 6px;
+                    width: 30px;
+                    height: 30px;
+                    align-items: center;
+                    border-radius: 50%;
+                    background-color: rgba(228, 220, 220, 0.5);
+                }
+                h3{
+                    margin: 6px;
+                }
+                &:hover {
+                    background-color: var(--primary-color-);
+                    color: #fff;
+                }
+            }
+            
+        }
+        .slide {
+            .slideItem {
+                padding: 10px;
+                border: 2px solid rgba(228, 220, 220, 0.5);
+                border-radius: 10px;
+                margin-bottom: 10px;
+                position: relative;
+                .image {
+                    width: 100%;
+                    overflow: hidden;
+                    // margin: 0 2px;
+                    img {
+                        width: 100%;
+                        border-radius: 10px;
+                    }
+                }
+                .desc {
+                    background-color: rgba(255, 255, 255, 0.8);
+                    display: flex;
+                    width: 100%;
+                    flex-direction: column;
+                    justify-content: flex-end;
+                    height: 100%;
+                    top: 0;
+                    left: 0;
+                    padding: 10px;
+                    h4  {
+                        color: var(--title-color-);
+                        transition: all 0.25s ease;
+                        &:hover {
+                            cursor: pointer;
+                            color: var(--primary-color-);
+                        }
+                    }
+                    .btn {
+                        color: var(--primary-color-);
+                        align-items: center;
+                        width: 100%;
+                        display: flex;
+                        padding: 12px 0;
+                        cursor: pointer;
+                        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+                        .icon {
+                            display: flex;
+                            margin-left: 6px;
+                            width: 30px;
+                            height: 30px;
+                            align-items: center;
+                            border-radius: 50%;
+                            background-color: rgba(228, 220, 220, 0.5);
+                        }
+                        h3{
+                            margin: 6px;
+                            color: var(--primary-color-);
+                            
+                        }
+                        &:hover {
+                            color: var(--title-color-);
+                        }
+                        &:hover h3 {
+                            color: var(--title-color-);
+                        }
+                    }
+
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 1200px) {
+    .projects {
+        padding:  40px;
+    }
+}
+@media (max-width: 990px ) {
+    .projects {
+        padding: 20px;
+        .title {
+           
+        }
+        .content {
+            .contentCount{
+                .count {
+                   
+                    h1{
+                      
+                    }
+                    span{
+                        h3{
+                           
+                            
+            
+                        }
+                        h4 {
+                           
+                        }
+                    }
+                }
+                .btn {
+                    .icon {
+                    }
+                    h3{
+                    }
+                   
+                }
+                
+            }
+            .slide {
+                .slideItem {
+                    .image {
+                        img {
+                        }
+                    }
+                    .desc {
+                        h4  {
+                        }
+                        .btn {
+                            .icon {
+                            }
+                            h4{
+                                
+                            }
+                           
+                        }
+    
+                    }
+                }
+            }
+        }
+    }
+}
+@media (max-width: 768px ) {
+    .projects {
+        padding: 20px;
+        .title {
+           
+        }
+        .content {
+            .contentCount{
+                .count {
+                   
+                    h1{
+                      
+                    }
+                    span{
+                        h3{
+                           
+                            
+            
+                        }
+                        h4 {
+                           
+                        }
+                    }
+                }
+                .btn {
+                    .icon {
+                    }
+                    h3{
+                    }
+                   
+                }
+                
+            }
+            .slide {
+                .slideItem {
+                    .image {
+                        img {
+                        }
+                    }
+                    .desc {
+                        h4  {
+                        }
+                        .btn {
+                            .icon {
+                            }
+                            h4{
+                                
+                            }
+                           
+                        }
+    
+                    }
+                }
+            }
+        }
+    }
+}
+@media (max-width: 480px) {
+    .projects {
+        padding:  20px;
+        .title {
+           
+        }
+        .content {
+            .contentCount{
+                .count {
+                   
+                    h1{
+                        font-size: 50px;
+                        margin: 15px 20px 15px;
+                    }
+                    span{
+                        h3{
+                            font-size: 30px;
+                            margin: 0;
+                            transform: translateY(-20px);
+                            
+            
+                        }
+                        h4 {
+                            font-size: 16px;
+                            margin: 0;
+                        }
+                    }
+                }
+                .btn {
+                    .icon {
+                    }
+                    h3{
+                    }
+                   
+                }
+                
+            }
+            .slide {
+                .slideItem {
+                    .image {
+                        img {
+                        }
+                    }
+                    .desc {
+                        h4  {
+                        }
+                        .btn {
+                            .icon {
+                            }
+                            h4{
+                                
+                            }
+                           
+                        }
+    
+                    }
+                }
+            }
+        }
+    }
+}

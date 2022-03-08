@@ -1,0 +1,30 @@
+.aboutUs {
+    padding: 60px 150px;
+
+}
+
+@media (max-width: 1200px) {
+    .aboutUs {
+        padding: 30px 40px;
+    
+    }
+    
+}
+@media (max-width: 990px ) {
+    .aboutUs {
+        padding: 30px 20px;
+    
+    }
+} 
+@media (max-width: 768px ) {
+    .aboutUs {
+        padding: 30px 20px;
+    
+    }
+}
+@media (max-width: 480px) {
+    .aboutUs {
+        padding: 30px 10px;
+    
+    }
+}

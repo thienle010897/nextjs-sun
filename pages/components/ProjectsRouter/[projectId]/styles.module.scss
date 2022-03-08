@@ -1,0 +1,34 @@
+.project {
+    margin-top: 90px;
+    padding: 20px 100px;
+    .wrapper {
+        .image {
+            width: 100%;
+            display: flex;
+            padding: 40px 60px;
+            img {
+                width: 100%;
+                margin: auto;
+            }
+        }
+        .detail {
+            img {
+                width: 100%;
+                margin: 20px 0;
+            }
+        }
+    }
+
+}
+
+@media (max-width: 1200px) {
+    
+}
+@media (max-width: 990px ) {
+} 
+@media (max-width: 768px ) {
+    
+}
+@media (max-width: 480px) {
+   
+}

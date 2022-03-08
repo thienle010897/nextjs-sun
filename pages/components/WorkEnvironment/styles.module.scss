@@ -1,0 +1,96 @@
+.workEnvironment {
+    margin-top: 50px;
+
+    .title {
+        font-size: 30px;
+        font-weight: 700;
+        color: var(--title-color-);
+    }
+    .list {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        .item {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            margin: 12px 0;
+            .checkBg {
+                background-color: rgba(16, 135, 117, 0.05);
+                display: flex;
+                margin-left: 6px;
+                width: 30px;
+                height: 30px;
+                align-items: center;
+                border-radius: 50%;
+                margin-right: 20px;
+
+                .checkIcon {
+                    // font-size: 16px;
+                    color: var(--primary-color-);
+                    transform: scale(1.5) translateX(6px);
+                }
+                
+            }
+        }
+    }
+    .image {
+        width: 100%;
+        img {
+            width:  100%;
+        }
+    }
+    .btn {
+        position: absolute;
+        bottom: 20px;
+        left: 10%;
+        width: 80%;
+        color: #fff;
+        align-items: center;
+        border-radius: 10px;
+        padding: 12px 0;
+        background-color: var(--title-color-);
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        .icon {
+            display: flex;
+            margin-left: 6px;
+            width: 30px;
+            height: 30px;
+            align-items: center;
+            border-radius: 50%;
+            background-color: rgba(228, 220, 220, 0.5);
+        }
+        h3{
+            margin: 6px;
+        }
+        &:hover {
+            background-color: var(--primary-color-);
+            color: #fff;
+        }
+    }
+}
+
+@media (max-width: 1200px) {
+    .workEnvironment {
+        padding: 0 20px;
+        margin-top: 30px;
+    }
+}
+@media (max-width: 990px ) {
+    .workEnvironment {
+        padding: 0 20px;
+        margin-top: 30px;
+    }
+}
+@media (max-width: 768px ) {
+    .workEnvironment {
+        padding: 0 20px;
+        margin-top: 30px;
+    }
+}
+@media (max-width: 480px) {
+    .workEnvironment {
+        padding: 0 20px;
+        margin-top: 30px;
+    }
+}

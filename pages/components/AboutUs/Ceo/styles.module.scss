@@ -1,0 +1,73 @@
+.ceo {
+    margin-top: 40px;
+    .content {
+        border-radius: 20px;
+        background-image: url(https://sun-asterisk.vn/wp-content/uploads/2021/03/73979115-94b7-48f2-b7c1-bc4278b18a64.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        overflow: hidden;
+        .wrapper {
+            color: #fff;
+            background-color: rgba(0, 0, 0, 0.6);
+            .image {
+                width: 100%;
+                padding: 30px;
+                border-radius: 50%;
+                img {
+                    width: 100%;
+                    border-radius: 50%;
+
+    
+                }
+            }
+            h2{
+                margin: 20px 0 0;
+            }
+            h1{
+                margin: 10px 0;
+            }
+            .btn {
+                color: #fff;
+                align-items: center;
+                width: 100%;
+                display: flex;
+                padding: 12px 0;
+                cursor: pointer;
+                margin-bottom: 20px;
+                font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+                .icon {
+                    display: flex;
+                    margin-left: 6px;
+                    width: 30px;
+                    height: 30px;
+                    align-items: center;
+                    border-radius: 50%;
+                    background-color: rgba(228, 220, 220, 0.5);
+                }
+                h3{
+                    margin: 6px ;
+                    
+                }
+                &:hover {
+                    color: var(--primary-color-);
+
+                }
+                &:hover h3 {
+                    color: var(--primary-color-);
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 1200px) {
+    
+}
+@media (max-width: 990px ) {
+} 
+@media (max-width: 768px ) {
+    
+}
+@media (max-width: 480px) {
+   
+}

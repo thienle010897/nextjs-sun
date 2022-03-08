@@ -1,0 +1,23 @@
+.homePage {
+    padding: 0 0px;
+}
+@media (max-width: 1200px) {
+    .homePage {
+        padding: 0 40px;
+    }
+}
+@media (max-width: 990px ) {
+    .homePage {
+        padding: 0 20px;
+    }
+} 
+@media (max-width: 768px ) {
+    .homePage {
+        padding: 0 20px;
+    }
+}
+@media (max-width: 480px) {
+    .homePage {
+        padding: 0 4px;
+    }
+}

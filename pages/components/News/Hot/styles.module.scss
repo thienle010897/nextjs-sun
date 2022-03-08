@@ -1,0 +1,87 @@
+.slideWrapper {
+    margin-top: 80px;
+    // height: 500px;
+    .content {
+        .slide {
+            position: relative;
+            .slideItem {
+                position: relative;
+                display: flex;
+                flex-direction: row;
+                // width: 100%;
+                .image {
+                    width: 100%;
+                    // height: 400px;
+                    overflow: hidden;
+                    display: flex;
+                    border-radius: 10px;
+                    img {
+                        margin: auto;
+                        border-radius: 10px;
+                        width: 100%;
+                    }
+                }
+                .desc {
+                    background-color: rgba(255, 255, 255, 0.8);
+                    display: flex;
+                    width: 100%;
+                    flex-direction: column;
+                    justify-content: flex-end;
+                    height: 100%;
+                    position: relative;
+                    padding: 30px;
+                    h4  {
+                        color: var(--title-color-);
+                        transition: all 0.25s ease;
+                        &:hover {
+                            cursor: pointer;
+                            color: var(--primary-color-);
+                        }
+                    }
+                    .btn {
+                        color: var(--primary-color-);
+                        align-items: center;
+                        width: 100%;
+                        display: flex;
+                        padding: 12px 0;
+                        cursor: pointer;
+                        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+                        .icon {
+                            display: flex;
+                            margin-left: 6px;
+                            width: 30px;
+                            height: 30px;
+                            align-items: center;
+                            border-radius: 50%;
+                            background-color: rgba(228, 220, 220, 0.5);
+                        }
+                        h3{
+                            margin: 6px;
+                            color: var(--primary-color-);
+                            
+                        }
+                        &:hover {
+                            color: var(--title-color-);
+                        }
+                        &:hover h3 {
+                            color: var(--title-color-);
+                        }
+                    }
+
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 1200px) {
+    
+}
+@media (max-width: 990px ) {
+} 
+@media (max-width: 768px ) {
+    
+}
+@media (max-width: 480px) {
+   
+}

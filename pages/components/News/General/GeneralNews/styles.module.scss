@@ -1,0 +1,100 @@
+
+.generalNews {
+
+    .wrapper {
+      width: 100%;
+      border: 2px solid rgba(77, 89, 105, 0.2);
+      border-radius: 10px;
+      padding: 20px;
+      transition: all 0.25s ease-in-out;
+      &:hover {
+        border-color: var(--primary-color-);
+      }
+      .image {
+        width: 100%;
+        img {
+          width: 100%;
+          border-radius: 10px;
+        }
+      }
+      h4 {
+        color: var(--title-color-);
+        cursor: pointer;
+        &:hover {
+          color: var(--primary-color-);
+        }
+      }
+      p {
+        color: rgb(77, 89, 105);
+        margin: 0;
+        overflow: hidden;
+        display: block;
+        text-overflow: ellipsis;
+        white-space: pre-line;
+        height: 62px;
+      }
+      .btn {
+        color: var(--primary-color-);
+        align-items: center;
+        width: 100%;
+        display: flex;
+        padding: 12px 0;
+        cursor: pointer;
+        font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+        .icon {
+          display: flex;
+          margin-left: 6px;
+          width: 30px;
+          height: 30px;
+          align-items: center;
+          border-radius: 50%;
+          background-color: rgba(228, 220, 220, 0.5);
+        }
+        h3 {
+          margin: 6px;
+          color: var(--primary-color-);
+        }
+        &:hover {
+          color: var(--title-color-);
+        }
+        &:hover h3 {
+          color: var(--title-color-);
+        }
+      }
+    }
+    .btnAll {
+      color: #fff;
+      align-items: center;
+      width: 50%;
+      transform: translateX(50%);
+      border-radius: 10px;
+      padding: 12px 0;
+      background-color: var(--title-color-);
+      font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+      .icon {
+        display: flex;
+        margin-left: 6px;
+        width: 30px;
+        height: 30px;
+        align-items: center;
+        border-radius: 50%;
+        background-color: rgba(228, 220, 220, 0.5);
+      }
+      h3 {
+        margin: 6px;
+      }
+      &:hover {
+        background-color: var(--primary-color-);
+        color: #fff;
+      }
+    }
+}
+
+@media (max-width: 1200px) {
+}
+@media (max-width: 990px) {
+}
+@media (max-width: 768px) {
+}
+@media (max-width: 480px) {
+}

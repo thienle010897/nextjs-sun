@@ -1,0 +1,26 @@
+.news {
+    margin-top: 80px;
+    padding: 0 150px;
+}
+
+@media (max-width: 1200px) {
+    .news {
+        padding: 0 40px;
+    }
+    
+}
+@media (max-width: 990px ) {
+    .news {
+        padding: 0 20px;
+    }
+} 
+@media (max-width: 768px ) {
+    .news {
+        padding: 0 20px;
+    }
+}
+@media (max-width: 480px) {
+    .news {
+        padding: 0 20px;
+    }
+}

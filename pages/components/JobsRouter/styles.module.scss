@@ -1,0 +1,25 @@
+.jobsRouter {
+    margin-top: 80px;
+    padding: 0 150px;
+}
+
+@media (max-width: 1200px) {
+    .jobsRouter {
+        padding: 0 40px;
+    }
+}
+@media (max-width: 990px ) {
+    .jobsRouter {
+        padding: 0 20px;
+    }
+} 
+@media (max-width: 768px ) {
+    .jobsRouter {
+        padding: 0 20px;
+    }
+}
+@media (max-width: 480px) {
+    .jobsRouter {
+        padding: 0 20px;
+    }
+}

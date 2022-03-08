@@ -1,0 +1,70 @@
+.sunAsterisk {
+    margin-top: 40px;
+    .content {
+
+        background-image: url(https://cambridgeholidaycottages.com/wp-content/uploads/2014/08/Wood-Background-Repeat.jpg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+
+        .wrapper {
+            padding: 40px;
+            background-color: rgba(16, 135, 117, 0.5);
+            border-radius: 10px;
+            .image {
+                width: 100%;
+                img {
+                    width: 100%;
+                }
+            }
+            h3 {
+                color: #fff;
+                
+            }
+            p {
+                color: #fff;
+            }
+            .btn {
+                color: #fff;
+                align-items: center;
+                width: 100%;
+                display: flex;
+                padding: 12px 0;
+                cursor: pointer;
+                font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+                .icon {
+                    display: flex;
+                    margin-left: 6px;
+                    width: 30px;
+                    height: 30px;
+                    align-items: center;
+                    border-radius: 50%;
+                    background-color: rgba(228, 220, 220, 0.5);
+                }
+                h3{
+                    margin: 6px;
+                    color: #fff;
+                    
+                }
+                &:hover {
+                    color: var(--title-color-);
+                }
+                &:hover h3 {
+                    color: var(--title-color-);
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 1200px) {
+    
+}
+@media (max-width: 990px ) {
+} 
+@media (max-width: 768px ) {
+    
+}
+@media (max-width: 480px) {
+   
+}
